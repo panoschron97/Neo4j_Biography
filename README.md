@@ -1,1 +1,1 @@
-# Neo4j_Biography
+# Just a fun script with Cypher Query Language(CQL).
