@@ -5,7 +5,7 @@ This repository contains Cypher script designed to create and manage a biography
 ## Features
 
 *   **Data Modeling**: Defines nodes for various aspects of a person's biography.
-*   **Cypher Scripts**: Includes scripts for creating, deleting and querying nodes and relationships.
+*   **Cypher Script**: Includes a script for creating, deleting and querying nodes and relationships.
 *   **Comprehensive Biography**: Covers personal information, contact details, education, skills, certificates and other relevant data.
 *   **Relationship Mapping**: Establishes connections between different biographical elements.
 
@@ -32,7 +32,7 @@ This repository contains Cypher script designed to create and manage a biography
 
 2.  Connect to your Neo4j database instance.
 
-3.  Execute the Cypher scripts from the repository in the Neo4j Browser. For example, to create the biography nodes and relationships you can run the `Biography.cypher` script:
+3.  Execute the Cypher script from the repository in the Neo4j Browser. For example, to create the biography nodes and relationships you can run the `Biography.cypher` script:
 
     ```cypher
     MATCH (n) DELETE (n);
