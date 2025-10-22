@@ -1,4 +1,4 @@
-# Neo4j Biography
+# Neo4j biography
 
 This repository contains Cypher script designed to create and manage a biography within a Neo4j graph database. It includes a script for creating nodes representing personal information, contact details, education, skills and more along with relationships connecting these nodes.
 
@@ -32,7 +32,7 @@ This repository contains Cypher script designed to create and manage a biography
 
 2.  Connect to your Neo4j database instance.
 
-3.  Execute the Cypher script from the repository in the Neo4j Browser. For example, to create the biography nodes and relationships you can run the `Biography.cypher` script:
+3.  Execute the Cypher script from the repository in the Neo4j Browser. For example to create the biography nodes and relationships you can run the `Biography.cypher` script:
 
     ```cypher
     MATCH (n) DELETE (n);
